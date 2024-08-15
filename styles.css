@@ -141,17 +141,19 @@ input{
 .text{
   color: #187d76;
 }
-footer{
+ footer{
    background-image: radial-gradient(circle, #ea9d3e, #e5ac3f, #e5bd3f, #eec33d, #312f17);
    height: 150px;
         }
-
   .footer-text{
    font-size: 20px;
    font-weight: 400;
    padding-left: 15px;
      }
      .img-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
     width: 250px;
-    padding-left: 15px;
      }
