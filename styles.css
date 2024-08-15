@@ -1,0 +1,157 @@
+html{
+  background-color:#000000;
+  font-family: Oswald;
+}
+header{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  background: #000000;
+  width: 100%;
+  height: 150px;
+  position: fixed;
+}
+#header-img{
+  height: 150px;
+}
+#header-text{
+width: 600px;
+margin-left: 175px;
+}
+ul{
+list-style-type: none;
+}
+li{
+  color: #000000;
+  background-color: #fcfcfa;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  list-style-type: none;
+  margin-top: 70px;
+  float: left;
+}
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #000000;
+  color: #fcfcfa;
+}
+#header-gap{
+  height: 150px;
+}
+body{
+  color:#fcfcfa;
+}
+.social-icons {
+  display: grid;
+  font-size: 3rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: center;
+  justify-content: even-spacing;
+  margin: 50px;
+  padding-left: 175px;
+}
+iframe{
+  height: 400px;
+  width: 500px;
+  margin-left: 500px;
+}
+h1{
+  color: #187d76;
+  text-align: center;
+  margin-top: 100px;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 30px;
+}
+.info-text{
+  text-align: center;
+  font-size: 20px;
+}
+#products{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: stretch;
+  margin: auto;
+}
+.product-heading{
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  color: #187d76;
+  font-weight: 600;
+}
+.products{
+  height: 400px;
+  width: 400px;
+}
+.product-text{
+  width: 390px;
+  font-size: 20px;
+  text-align: center;
+}
+#merch{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: stretch;
+  margin: auto;
+}
+.merch-heading{
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+  color: #187d76;
+  font-weight: 600;
+}
+.merch{
+  height: 400px;
+  width: 400px;
+}
+.merch-text{
+  width: 350px;
+  font-size: 20px;
+  text-align: center;
+}
+form{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+#submit{
+  border-radius: 25px;
+  background-color: #187d76;
+  font-size: 30px;
+  margin-left: -10px;
+}
+input{
+  font-size: 30px;
+  margin: 20px;
+}
+.text{
+  color: #187d76;
+}
+footer{
+   background-image: radial-gradient(circle, #ea9d3e, #e5ac3f, #e5bd3f, #eec33d, #312f17);
+   height: 150px;
+        }
+
+  .footer-text{
+   font-size: 20px;
+   font-weight: 400;
+   padding-left: 15px;
+     }
+     .img-bottom{
+    width: 250px;
+    padding-left: 15px;
+     }
