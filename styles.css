@@ -153,6 +153,12 @@ input{
 .text{
   color: #187d76;
 }
+.line{
+  background-color: #3232a8;
+  height: 5px;
+  width: 80%;
+  margin: auto;
+  }
  footer{
    background-image: radial-gradient(circle, #ea9d3e, #e5ac3f, #e5bd3f, #eec33d, #312f17);
    margin: auto;
